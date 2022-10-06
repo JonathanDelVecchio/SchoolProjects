@@ -77,8 +77,8 @@ public class Knapsack {
     bestValue = knapSack(W, wt, val, n);
     b = ((W * 2) + bestWeight / 4);
 
-    System.out.printf("Knapsack Value is: %d\n ", bestValue);
-    System.out.printf("Knapsack Weight is: %d\n ", bestWeight);
-    System.out.printf("Number of valid knapsack's: %d\n", b);
+    System.out.printf("Number of valid Sacks: %d\n", b);
+    System.out.printf("Sack Value is: %d\n ", bestValue);
+    System.out.printf("Sack Weight is: %d\n ", bestWeight);
   }
 }
